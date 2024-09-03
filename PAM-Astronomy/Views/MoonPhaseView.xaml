@@ -6,14 +6,15 @@
 
     <ContentPage.Resources>
         <ResourceDictionary>
-            <Color x:Key="textColor">White</Color>
-            <Color x:Key="boxColor">#44FFFFFF</Color>
-            <Style TargetType="Label">
+            <Color x:Key="textColor">#44aaee</Color>
+            <Color x:Key="boxColor">#aaaabf</Color>
+            <Style TargetType="Label"> 
                 <Setter Property="TextColor" Value="{StaticResource textColor}" />
                 <Setter Property="HorizontalOptions" Value="Center" />
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
+    
     
     <Grid RowSpacing="10" ColumnSpacing="5" Padding="5" >
         <Grid.RowDefinitions>
