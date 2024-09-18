@@ -3,6 +3,7 @@ using PAM_Astronomy.Services;
 
 public partial class MoonPhaseView : ContentPage
 {
+    
 	public MoonPhaseView()
 	{
 		InitializeComponent();
