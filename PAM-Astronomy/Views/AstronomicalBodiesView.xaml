@@ -25,9 +25,12 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="btnEarth" Grid.Row="0" Grid.Column="0" Text=" " />
+        <Button x:Name="btnEarth" Grid.Row="0" Grid.Column="0" Text=" "/>
         <Button x:Name="btnMoon" Grid.Row="0" Grid.Column="1" Text=" " />
         <Button x:Name="btnSun" Grid.Row="1" Grid.Column="0" Text=" " />
         <Button x:Name="btnComet" Grid.Row="1" Grid.Column="1" Text=" " />
-    </Grid>
+    </Grid>
+
+
+
 </ContentPage>

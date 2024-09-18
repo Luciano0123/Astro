@@ -1,3 +1,5 @@
+using PAM_Astronomy.Models;
+
 namespace PAM_Astronomy.Views;
 
 public partial class AstronomicalBodyView : ContentPage
@@ -7,6 +9,7 @@ public partial class AstronomicalBodyView : ContentPage
         InitializeComponent();
     }
     string astroName;
+
     public string AstroName
     {
         get => astroName;
@@ -16,6 +19,9 @@ public partial class AstronomicalBodyView : ContentPage
             UpdateAstroBodyUI(astroName);
         }
     }
+
+    public object SolarSystemData { get; private set; }
+
     void UpdateAstroBodyUI(string astroName)
     {
         AstronomicalBody body = FindAstroData(astroName);
@@ -36,7 +42,6 @@ public partial class AstronomicalBodyView : ContentPage
             "sun" => SolarSystemData.Sun,
             _ => throw new ArgumentException()
         };
-
 
     }
 }
